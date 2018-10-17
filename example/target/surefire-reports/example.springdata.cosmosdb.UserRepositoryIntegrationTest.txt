@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: example.springdata.cosmosdb.UserRepositoryIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.412 s <<< FAILURE! - in example.springdata.cosmosdb.UserRepositoryIntegrationTest
+testUserRepository(example.springdata.cosmosdb.UserRepositoryIntegrationTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'documentClient' defined in example.springdata.cosmosdb.UserRepositoryConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microsoft.azure.documentdb.DocumentClient]: Factory method 'documentClient' threw exception; nested exception is java.lang.IllegalArgumentException: Incorrect uri from request.
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microsoft.azure.documentdb.DocumentClient]: Factory method 'documentClient' threw exception; nested exception is java.lang.IllegalArgumentException: Incorrect uri from request.
+Caused by: java.lang.IllegalArgumentException: Incorrect uri from request.
+Caused by: java.net.URISyntaxException: Expected scheme-specific part at index 6: https:
+

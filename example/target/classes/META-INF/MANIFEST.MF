@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Data Cosmosdb - Example
+Implementation-Version: 2.0.5-SNAPSHOT
+Built-By: nisum
+Implementation-Vendor-Id: com.microsoft.azure
+Build-Jdk: 1.8.0_144
+Created-By: Maven Integration for Eclipse
+Main-Class: example.springdata.cosmosdb.Application
+

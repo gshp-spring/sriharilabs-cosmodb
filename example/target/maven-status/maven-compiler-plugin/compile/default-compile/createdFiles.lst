@@ -1,0 +1,7 @@
+example/springdata/cosmosdb/User.class
+example/springdata/cosmosdb/UserRepositoryConfiguration.class
+example/springdata/cosmosdb/UserRepository.class
+example/springdata/cosmosdb/Role.class
+example/springdata/cosmosdb/Address.class
+example/springdata/cosmosdb/Application.class
+example/springdata/cosmosdb/DocumentDbProperties.class
